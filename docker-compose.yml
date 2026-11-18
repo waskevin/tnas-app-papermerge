@@ -1,0 +1,6 @@
+services:
+  papermerge:
+    image: linuxserver/papermerge:2.1.5
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
